@@ -1,0 +1,53 @@
+/* src/Card.css */
+
+.card {
+  background-color: #1C1E26;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  min-width: 200px;
+  max-width: 350px;
+  text-align: center;
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add a transition effect for box-shadow */
+  
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05); 
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  word-wrap: break-word; /* Allow word wrapping for long device names */
+  max-height: 4em; /* Set a maximum height for the card content */
+  overflow: hidden; /* White text color */
+}
+
+.card p {
+  font-size: 16px;
+  color: #cccccc; /* Light gray text color */
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  column-gap: 20px;
+}
+
+.card {
+  flex: 0 0 calc(33.33% - 20px); /* Adjust the percentage as needed */
+  margin-bottom: 20px;
+}
+
+.card:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}

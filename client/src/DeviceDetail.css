@@ -1,0 +1,41 @@
+/* DeviceDetail.css */
+
+.device-card {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    max-width: 500px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .device-info p {
+    margin: 10px 0;
+  }
+  
+  .device-info strong {
+    color: #f50057;
+  }
+  
+  .device-info strong,
+  .device-info p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+  }
+  
+  .back-link {
+    text-decoration: none;
+    color: #f50057;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .back-link:hover {
+    color: #d81b60;
+  }
+  
